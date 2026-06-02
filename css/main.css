@@ -1252,7 +1252,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #407893;
+  background: #ff7d5d;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2553,17 +2553,40 @@ header.header {
     left: 320px;
   }
 }
-.header {
+.header,
+.header-inner,
+.site-nav,
+.main-menu,
+.site-brand-container,
+.site-meta,
+.brand {
   background: #fc6423 !important;
+}
+.header {
+  padding: 0 !important;
+}
+.site-brand-container {
+  padding: 0 10px !important;
+}
+.site-nav {
+  padding: 0 !important;
 }
 .site-title {
   color: #fff !important;
+  font-size: 1.4rem !important;
+  padding: 8px 0 !important;
+}
+.site-nav-toggle,
+.site-nav-right {
+  display: none !important;
 }
 .menu .menu-item a {
   color: #fff !important;
+  padding: 6px 15px !important;
 }
 .menu .menu-item a:hover {
-  background: rgba(255,255,255,0.2) !important;
+  background: rgba(255,255,255,0.25) !important;
+  color: #fff !important;
 }
 a:hover {
   color: #fc6423 !important;
