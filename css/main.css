@@ -6,8 +6,8 @@
   --selection-bg: #262a30;
   --selection-color: #eee;
   --blockquote-color: #666;
-  --link-color: #555;
-  --link-hover-color: #222;
+  --link-color: #fc6423;
+  --link-hover-color: #e34603;
   --brand-color: #fff;
   --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
@@ -1253,7 +1253,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #6e01bb;
+    background: #6c6fff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
